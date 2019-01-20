@@ -1,0 +1,1 @@
+document.getElementById("board").innerHTML = "This script is working";
