@@ -1,0 +1,24 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(17, auto);
+    width: 390px;
+    transform: skew(-26deg);
+}
+
+#board > .field {
+    height: 30px;
+    width: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 0;
+    transform: skew(26deg);
+}
+
+#board > .invisible {
+    visibility: hidden;
+}
+
+#board > .selected {
+    opacity: 0.3;
+}
+
